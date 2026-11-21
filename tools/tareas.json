@@ -1,0 +1,664 @@
+{
+  "modulo": "MP0613 · DWES",
+  "unidades": {
+    "UD2": "Sintaxis básica",
+    "UD3": "Control, arrays, cadenas y funciones",
+    "UD4": "Formularios, cookies y sesiones"
+  },
+  "tareas": [
+    {
+      "id": "T2.1.1",
+      "titulo": "Sintaxis básica de PHP (I)",
+      "ud": "UD2",
+      "carpeta": "UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Qué es PHP · PHP vs JS · carpeta XAMPP",
+          "archivo": "ej1-respuestas.md",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "b1893b567088fb53e5ed8e40d86b7d91e1743b04"
+        },
+        {
+          "n": 2,
+          "titulo": "phpinfo()",
+          "archivo": "ej2-phpinfo.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "b7f80ac62ab7d6f83af89bf71c06f66971479e28"
+        },
+        {
+          "n": 3,
+          "titulo": "Cuestiones de sintaxis",
+          "archivo": "ej3-respuestas.md",
+          "extra": [],
+          "pasos": 6,
+          "plantilla": "42041523e6e0c9dfeb30ea1d13f4256e81f378bd"
+        },
+        {
+          "n": 4,
+          "titulo": "Nombre y apellido",
+          "archivo": "ej4-nombre-apellido.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "b2f7fe52360172be65fe1c2eb74d0986ba1b5815"
+        },
+        {
+          "n": 5,
+          "titulo": "Identificadores válidos",
+          "archivo": "ej5-identificadores.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "b8033c1681e1f159b8f489adccf79aba5743aba8"
+        },
+        {
+          "n": 6,
+          "titulo": "Operadores aritméticos",
+          "archivo": "ej6-aritmetica.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "0c141dddd4af6453880ed0de0028197fdc1aa48c"
+        },
+        {
+          "n": 7,
+          "titulo": "Operadores de asignación",
+          "archivo": "ej7-asignacion.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "8effa221b616e76727524d01c2e02263639d0e97"
+        },
+        {
+          "n": 8,
+          "titulo": "Expresiones lógicas",
+          "archivo": "ej8-logica.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "9332b1c3ccd0fc747b2406612b24449900b52b16"
+        }
+      ]
+    },
+    {
+      "id": "T2.1.2",
+      "titulo": "Sintaxis básica de PHP (II)",
+      "ud": "UD2",
+      "carpeta": "UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Secuencias de escape",
+          "archivo": "ej1-escapes.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "eacfbb028ce0fc89f40fe49dc6875923327aeff3"
+        },
+        {
+          "n": 2,
+          "titulo": "Tabuladores y strlen",
+          "archivo": "ej2-strlen.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "53b180d6088b277e28546359a2e2b5c68fe445cd"
+        },
+        {
+          "n": 3,
+          "titulo": "Etiqueta <pre>",
+          "archivo": "ej3-pre.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "68811aabf34185a8903edf4f79ce32cab2996a31"
+        },
+        {
+          "n": 4,
+          "titulo": "gettype y operadores lógicos",
+          "archivo": "ej4-gettype.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "672dff4c967af2e87a7445e9679ea540e441c103"
+        },
+        {
+          "n": 5,
+          "titulo": "Tipado dinámico en operaciones",
+          "archivo": "ej5-tipado.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "f857df49322e5affe94a06aa49e4baa562fb17ae"
+        },
+        {
+          "n": 6,
+          "titulo": "Casting",
+          "archivo": "ej6-casting.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "6898b9d1ddf9143c1b25516a57de8e836e5a4fdf"
+        },
+        {
+          "n": 7,
+          "titulo": "Constantes",
+          "archivo": "ej7-constantes.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "77b9b600ba5e3ab040e08a610c1b0514db05b17d"
+        }
+      ]
+    },
+    {
+      "id": "T3.1.1",
+      "titulo": "Estructuras de control",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.1.1-Estructuras-de-control",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Tablas de multiplicar 1–9",
+          "archivo": "ej1-tablas.php",
+          "extra": [],
+          "pasos": 4,
+          "plantilla": "dd76948fa12b97f2f4df7d732af81b50f42edf09"
+        },
+        {
+          "n": 2,
+          "titulo": "Tabla del N con printf",
+          "archivo": "ej2-printf.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "9acdf2f5e662830d0d72efb0d29f360b1d0cc70a"
+        },
+        {
+          "n": 3,
+          "titulo": "Triángulo de asteriscos",
+          "archivo": "ej3-triangulo.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "3692a92846d79205ff1e3cd50f0bc99138321935"
+        },
+        {
+          "n": 4,
+          "titulo": "Triángulo invertido de números",
+          "archivo": "ej4-triangulo-invertido.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "60559f7fa15c27a40aa66a92932ad844e7398c8e"
+        },
+        {
+          "n": 5,
+          "titulo": "Pirámide centrada",
+          "archivo": "ej5-piramide.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "a928481a79ea76830815d9db0efde7242893c6ce"
+        }
+      ]
+    },
+    {
+      "id": "T3.2.1",
+      "titulo": "Arrays (I)",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.2.1-Arrays-I",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Array de días",
+          "archivo": "ej1-dias.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "063bc4cf4fd291c7341260929a2b1252fb8cfa2c"
+        },
+        {
+          "n": 2,
+          "titulo": "Claves explícitas e implícitas",
+          "archivo": "ej2-claves.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "6bc1ab1f78fac817b785f03dc08bb61e15bddc7f"
+        },
+        {
+          "n": 3,
+          "titulo": "count e índice inexistente",
+          "archivo": "ej3-count.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "1f04679e67812dde5ea71cba7720180a567729a5"
+        }
+      ]
+    },
+    {
+      "id": "T3.2.2",
+      "titulo": "Arrays (II)",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.2.2-Arrays-II",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Vector ascendente / descendente",
+          "archivo": "ej1-vector-orden.php",
+          "extra": [],
+          "pasos": 5,
+          "plantilla": "2f4ad803df42f9475358a0f9ab47a36cd19d6e2b"
+        },
+        {
+          "n": 2,
+          "titulo": "Vector aleatorio",
+          "archivo": "ej2-aleatorios.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "18438fbcd5e3cf369d3cd5be366ed2b201d68206"
+        },
+        {
+          "n": 3,
+          "titulo": "Boleto de primitiva",
+          "archivo": "ej3-primitiva.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "b2f89c97e8dfd36b0ec524f5faeb75b8fdb7b8bc"
+        },
+        {
+          "n": 4,
+          "titulo": "Matriz identidad 10×10",
+          "archivo": "ej4-identidad.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "f0285d72ef8580d50d8c1c468093674281bb7929"
+        },
+        {
+          "n": 5,
+          "titulo": "Campo de minas 20×20 (+ versión HTML)",
+          "archivo": "ej5-minas.php",
+          "extra": [],
+          "pasos": 4,
+          "plantilla": "6110c2acc0abb8801d269cd221a79e258d935831"
+        }
+      ]
+    },
+    {
+      "id": "T3.2.3",
+      "titulo": "Cadenas",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.2.3-Cadenas",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Usuario de un email",
+          "archivo": "ej1-usuario-email.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "5a244532cf10cc2f3a57afce8adc7d57e9304919"
+        },
+        {
+          "n": 2,
+          "titulo": "Validar login",
+          "archivo": "ej2-login.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "28ee56d9e2c1a19b16636081c1a8b64c16c46f0d"
+        },
+        {
+          "n": 3,
+          "titulo": "Contar ocurrencias (sin distinguir mayúsculas)",
+          "archivo": "ej3-ocurrencias.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "d5b1d0e166c9e590853962b7fb5edb3c223cbe47"
+        }
+      ]
+    },
+    {
+      "id": "T3.2.4",
+      "titulo": "Cadenas: cuestiones",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.2.4-Cadenas-cuestiones",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Código 1 · acceso por índice",
+          "archivo": "codigo1.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "3f699fef5ded71f3223a6ec4b7ce2e855338a18e"
+        },
+        {
+          "n": 2,
+          "titulo": "Código 2 · substr",
+          "archivo": "codigo2.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "20914568d7edf03da0ab54e07337134092b06d6c"
+        },
+        {
+          "n": 3,
+          "titulo": "Código 3 · mb_substr",
+          "archivo": "codigo3.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "25ee6345e02375b200997b39184b0a25423edc33"
+        },
+        {
+          "n": 4,
+          "titulo": "Código 4 · mb_strpos y == false",
+          "archivo": "codigo4.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "d3b78d099959ffcf6188eae4950e14974fb162ae"
+        }
+      ]
+    },
+    {
+      "id": "T3.3.1",
+      "titulo": "Funciones (I)",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.3.1-Funciones-I",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Par o impar",
+          "archivo": "ej1-par-impar.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "755e02d80b5eb7296b474c9b2ee68c41ad29577f"
+        },
+        {
+          "n": 2,
+          "titulo": "Primo",
+          "archivo": "ej2-primo.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "e7ed0eab45a95761d994f509efb5fa2b1fb412eb"
+        },
+        {
+          "n": 3,
+          "titulo": "Del 1 al 10",
+          "archivo": "ej3-uno-a-diez.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "eb35fbc034c53cddd1af733eccf1c931880d2287"
+        }
+      ]
+    },
+    {
+      "id": "T3.3.2",
+      "titulo": "Funciones (II)",
+      "ud": "UD3",
+      "carpeta": "UD3-Control-arrays-cadenas-funciones/T3.3.2-Funciones-II",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "esPalindromo (iterativo)",
+          "archivo": "ej1-palindromo.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "23b421dc2e33644d37107d88687f12b71f7753c4"
+        },
+        {
+          "n": 2,
+          "titulo": "sumaTodos",
+          "archivo": "ej2-suma-todos.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "1c2f3c9648fe863e523dcc1fe7d8b5c3a3b4d207"
+        },
+        {
+          "n": 3,
+          "titulo": "Cifras al revés",
+          "archivo": "ej3-cifras.php",
+          "extra": [],
+          "pasos": 2,
+          "plantilla": "0daecd6cab8408f2c525e3beb21e3f4cc2c01fb9"
+        },
+        {
+          "n": 4,
+          "titulo": "Email corporativo a partir del nombre",
+          "archivo": "ej4-email.php",
+          "extra": [],
+          "pasos": 4,
+          "plantilla": "d253c286f9d654013f92ec1e9c5106534c23d78a"
+        }
+      ]
+    },
+    {
+      "id": "T4.1.0",
+      "titulo": "Formularios sencillos y funciones",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.1.0-Formularios-sencillos-y-funciones",
+      "fecha": null,
+      "entrega": false,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Palíndromo por formulario",
+          "archivo": "ej1-index.php",
+          "extra": [
+            "ej1-procesar.php"
+          ],
+          "pasos": 3,
+          "plantilla": "64a4fff912756a2cc74d61f34c9e44b79d48da67"
+        },
+        {
+          "n": 2,
+          "titulo": "IP aleatoria A/B/C",
+          "archivo": "ej2-form.php",
+          "extra": [
+            "ej2-procesar.php"
+          ],
+          "pasos": 3,
+          "plantilla": "d9e741d5b6e3adbf1a93b0aafa81c14463c4eea0"
+        },
+        {
+          "n": 3,
+          "titulo": "Generador de contraseñas",
+          "archivo": "ej3-form.php",
+          "extra": [
+            "ej3-procesar.php"
+          ],
+          "pasos": 4,
+          "plantilla": "1547bdf6f2c931db99034ea9e8b896d2bc4d1037"
+        },
+        {
+          "n": 4,
+          "titulo": "enctype: experimentos y reflexión",
+          "archivo": "ej4-enctype.php",
+          "extra": [],
+          "pasos": 4,
+          "plantilla": "30332ec02e411ee8b52b67c6548f2849a12679e3"
+        },
+        {
+          "n": 5,
+          "titulo": "Subida de archivo: reflexión",
+          "archivo": "ej5-subida.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "cffa5f4f944d347e620bdb1d649a59a287225e8b"
+        },
+        {
+          "n": 6,
+          "titulo": "Subida con validación MIME",
+          "archivo": "ej6-mime.php",
+          "extra": [],
+          "pasos": 4,
+          "plantilla": "85877454fe52bc6b8fb46fd31b6b015f7545866a"
+        },
+        {
+          "n": 7,
+          "titulo": "Subida con límite de 2 MB",
+          "archivo": "ej7-tamano.php",
+          "extra": [],
+          "pasos": 3,
+          "plantilla": "7658e704e36cceae04a5d79bab6b7d099d0cfda4"
+        }
+      ]
+    },
+    {
+      "id": "T4.1.1",
+      "titulo": "Recoger controles de formularios",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.1.1-Recoger-controles-de-formularios",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "registro.php + agente.php",
+          "archivo": "registro.php",
+          "extra": [
+            "agente.php"
+          ],
+          "pasos": 6,
+          "plantilla": "0f79b7cfc22d63191056fe1aa4e0d3dc6b2074b8"
+        }
+      ]
+    },
+    {
+      "id": "T4.1.2",
+      "titulo": "Verificación y limpieza",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.1.2-Verificacion-y-limpieza",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Campos obligatorios y limpieza",
+          "archivo": "registro.php",
+          "extra": [
+            "agente.php"
+          ],
+          "pasos": 5,
+          "plantilla": "e85bc9bc27b0cb12d17a3ef34450ebab91e971d5"
+        }
+      ]
+    },
+    {
+      "id": "T4.1.3",
+      "titulo": "Validación: funciones y filtros",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.1.3-Validacion-funciones-y-filtros",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Validación con filtros",
+          "archivo": "registro.php",
+          "extra": [
+            "agente.php"
+          ],
+          "pasos": 6,
+          "plantilla": "6a199190667ceddd2ef8f0a859e99f0af2c6177d"
+        }
+      ]
+    },
+    {
+      "id": "T4.2.1",
+      "titulo": "Persistencia con PHP_SELF",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.2.1-Persistencia-PHP_SELF",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Formulario autoprocesado",
+          "archivo": "registro.php",
+          "extra": [],
+          "pasos": 5,
+          "plantilla": "5b585a646fa8e2a587e9da0ecb47355e81aa36f7"
+        }
+      ]
+    },
+    {
+      "id": "T4.2.2",
+      "titulo": "Juego del ahorcado",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.2.2-Ahorcado",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Ahorcado sin cookies ni sesiones",
+          "archivo": "ahorcado.php",
+          "extra": [],
+          "pasos": 6,
+          "plantilla": "8172e6e847cd876eccb9dc1bbac41b7887b6805b"
+        }
+      ]
+    },
+    {
+      "id": "T4.3.1",
+      "titulo": "Gestión de usuarios: cookies",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.3.1-Usuarios-cookies",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "crearCookies() + informacion.php",
+          "archivo": "registro.php",
+          "extra": [
+            "informacion.php"
+          ],
+          "pasos": 5,
+          "plantilla": "409e969e8543f63f6c11cef4dbda5fd087498378"
+        }
+      ]
+    },
+    {
+      "id": "T4.3.2",
+      "titulo": "Gestión de usuarios: sesiones",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.3.2-Usuarios-sesiones",
+      "fecha": null,
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "crearSesion() + informacion.php",
+          "archivo": "registro.php",
+          "extra": [
+            "informacion.php"
+          ],
+          "pasos": 5,
+          "plantilla": "608ad1d9ff9c69c7477d1e69e9385122b9efc437"
+        }
+      ]
+    },
+    {
+      "id": "T4.3.3",
+      "titulo": "Ahorcado con sesiones ⭐",
+      "ud": "UD4",
+      "carpeta": "UD4-Formularios-cookies-sesiones/T4.3.3-Ahorcado-sesiones",
+      "fecha": "2026-12-10",
+      "entrega": true,
+      "ejercicios": [
+        {
+          "n": 1,
+          "titulo": "Ahorcado con sesión + cookie de usuario + vídeo",
+          "archivo": "index.php",
+          "extra": [
+            "funciones.php"
+          ],
+          "pasos": 7,
+          "plantilla": "fa0b374b4466fd0c9f37d3c5e9f02a6216cd667e"
+        }
+      ]
+    }
+  ]
+}

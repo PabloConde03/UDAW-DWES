@@ -16,6 +16,31 @@ Ejercicios, tareas evaluables y proyectos de PHP del ciclo superior de **Desarro
 
 ---
 
+> 🧑‍💻 **Estás en la rama `Pablo`**: enunciados + plantillas de trabajo + dashboard de progreso.
+
+<!-- PROGRESO:INICIO -->
+**Progreso:** `░░░░░░░░░░░░░░░░░░░░` **0 %** · 0/57 ejercicios · 0 h · [ver detalle](PROGRESO.md)
+<!-- PROGRESO:FIN -->
+
+## Cómo trabajar en esta rama
+
+1. **Abre el dashboard:** `http://localhost/UDAW-DWES/dashboard.php`. El botón **▶ Continuar** te lleva al siguiente ejercicio de la cola.
+2. **Cada ejercicio tiene su plantilla** (`ejN-*.php` o `*.md`) con objetivo, pistas, la *trampa de examen* típica y los pasos como `// TODO`. Sin la solución.
+3. **El progreso vive en la cabecera** de cada fichero:
+   ```php
+   *  @estado  en-progreso    ← pendiente | en-progreso | completado
+   *  @horas   1.5
+   ```
+   Lo puedes cambiar a mano o desde el dashboard (selector de estado y botones **+½ h** / **−**).
+4. **Se detecta solo:** si un fichero sigue en `pendiente` pero ya lo has tocado, pasa a *en progreso* automáticamente. Cada `// TODO` que borres cuenta como paso hecho.
+5. **`PROGRESO.md` se regenera solo** en tres sitios:
+   - al cargar el dashboard;
+   - en cada commit, si activas el hook una vez con `git config core.hooksPath tools/hooks`;
+   - en cada push, mediante la GitHub Action `Actualizar progreso`.
+
+   Si la Action llega a hacer un commit, ejecuta `git pull --rebase` antes de tu siguiente push.
+6. **Fechas de entrega:** añádelas en `tools/tareas.json` (campo `"fecha": "AAAA-MM-DD"`) y aparecerán en el calendario y en la cola. Lo que vence en 7 días o menos pasa al principio de la cola.
+
 ## Contenido
 
 - [Sobre el repositorio](#sobre-el-repositorio)
@@ -95,7 +120,21 @@ UDAW-DWES/
     └── T4.x.x-.../README.md
 ```
 
-En la rama `Pablo`, cada carpeta de tarea contiene además los ficheros de trabajo (`ejN-*.php`, `respuestas.md` o los ficheros que pida el enunciado), y en la raíz se añaden `dashboard.php`, `PROGRESO.md` y `tools/`.
+En esta rama se añaden:
+
+```
+├── dashboard.php                  # Dashboard de progreso (XAMPP)
+├── PROGRESO.md                    # Generado automáticamente
+├── tools/
+│   ├── tareas.json                # Estructura del curso + fechas límite
+│   ├── progreso-lib.php           # Lectura de cabeceras y cálculo del avance
+│   ├── generar-progreso.php       # CLI: regenera PROGRESO.md
+│   └── hooks/pre-commit           # Hook opcional
+├── .github/workflows/progreso.yml # Action que regenera PROGRESO.md en cada push
+└── UDn-.../Tn.n.n-.../
+    ├── README.md                  # Enunciado
+    └── ejN-*.php | *.md           # Plantillas de trabajo
+```
 
 ## Puesta en marcha
 

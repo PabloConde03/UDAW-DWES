@@ -1,0 +1,11 @@
+#!/bin/sh
+# Regenera PROGRESO.md y el bloque del README antes de cada commit.
+# Activar una sola vez:   git config core.hooksPath tools/hooks
+PHP=php
+command -v php >/dev/null 2>&1 || PHP=/c/xampp/php/php.exe
+if [ ! -x "$(command -v "$PHP" 2>/dev/null || echo "$PHP")" ]; then
+  echo "[pre-commit] No encuentro php (ni en PATH ni en C:\\xampp\\php). Progreso no regenerado."
+  exit 0
+fi
+"$PHP" tools/generar-progreso.php && git add PROGRESO.md README.md
+exit 0

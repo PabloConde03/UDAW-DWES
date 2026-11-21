@@ -3,33 +3,34 @@
 
 # T2.1.1 · Ejercicio 3 — Cuestiones de sintaxis
 
-> **Objetivo:** Responder las 6 cuestiones con un ejemplo de código mínimo en cada una.  
+> **Objetivo:** Responder las 6 cuestiones con un ejemplo de código mínimo en cada una.
 > **⚠ Trampa de examen:** En PHP las variables SÍ distinguen mayúsculas ($a ≠ $A) pero las funciones y palabras clave NO (ECHO funciona).
 
 **Pistas:** Prueba cada respuesta en un .php antes de escribirla.
 
 ---
 
-- [ ] **1. Instrucción para imprimir**
+- [X] **1. Instrucción para imprimir**
 
-  _Tu respuesta…_
+  _echo_
 
-- [ ] **2. Comillas simples vs dobles**
+- [X] **2. Comillas simples vs dobles**
 
-  _Tu respuesta…_
+  _Las comillas simples (') tratan el texto de forma literal, mientras que las comillas dobles (") interpretan variables y más secuencias de escape_
 
-- [ ] **3. Comentarios de una y varias líneas**
+- [X] **3. Comentarios de una y varias líneas**
 
-  _Tu respuesta…_
+  _//unalinea_
+  _/* Varias lineas */_
 
-- [ ] **4. Fichero de configuración de PHP**
+- [X] **4. Fichero de configuración de PHP**
 
-  _Tu respuesta…_
+  _php.ini_
 
-- [ ] **5. ¿Distingue mayúsculas en variables?**
+- [X] **5. ¿Distingue mayúsculas en variables?**
 
-  _Tu respuesta…_
+  _Si_
 
-- [ ] **6. Concatenación**
+- [X] **6. Concatenación**
 
-  _Tu respuesta…_
+  _Se.utiliza.así.!_

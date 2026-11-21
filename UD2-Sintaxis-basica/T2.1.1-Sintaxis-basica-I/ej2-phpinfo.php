@@ -1,4 +1,5 @@
 <?php
+
 /**
  * ========================================================================
  *  T2.1.1 · Ejercicio 2 — phpinfo()
@@ -25,23 +26,27 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>T2.1.1 · Ej. 2 — phpinfo()</title>
 </head>
+
 <body>
-<h1>T2.1.1 · Ej. 2 — phpinfo()</h1>
+    <h1>T2.1.1 · Ej. 2 — phpinfo()</h1>
 
-<?php
+    <?php
 
-// TODO 1: Copia el código del enunciado y ábrelo desde
-//         http://localhost (no con doble clic).
+    // TODO 1: Copia el código del enunciado y ábrelo desde
+    //         http://localhost (no con doble clic).
+    phpinfo()
 
-// TODO 2: Localiza: versión de PHP, ruta de php.ini cargado,
-//         upload_max_filesize, post_max_size, extensión mbstring.
+    // TODO 2: Localiza: versión de PHP, ruta de php.ini cargado,
+    //         upload_max_filesize, post_max_size, extensión mbstring.
 
-// TODO 3: Anota esos valores en el bloque RESPUESTAS de abajo.
+    // TODO 3: Anota esos valores en el bloque RESPUESTAS de abajo.
 
-?>
+    ?>
 </body>
+
 </html>

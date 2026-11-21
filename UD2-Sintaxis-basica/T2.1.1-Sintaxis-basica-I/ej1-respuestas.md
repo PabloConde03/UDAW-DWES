@@ -10,14 +10,14 @@
 
 ---
 
-- [ ] **1. ¿Qué es PHP?**
+- [X] **1. ¿Qué es PHP?**
 
   _Un lenguaje de programación de código abierto diseñado principalmente para el desarrollo web del lado del servidor_
 
-- [ ] **2. Diferencias más notables entre JavaScript y PHP**
+- [X] **2. Diferencias más notables entre JavaScript y PHP**
 
   _Las diferencias más notables entre JavaScript y PHP radican en dónde se ejecutan, cómo gestionan las peticiones y cuál es su enfoque principal en el desarrollo web_
 
-- [ ] **3. Carpeta de proyectos web de XAMPP**
+- [X] **3. Carpeta de proyectos web de XAMPP**
 
   _La carpeta de proyectos web de XAMPP es htdocs…_

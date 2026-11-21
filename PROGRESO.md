@@ -6,7 +6,7 @@
 
 | Global | Completados | En progreso | Pendientes | Horas |
 |---|:-:|:-:|:-:|:-:|
-| `░░░░░░░░░░░░░░░░░░░░` **0 %** | 0 / 57 | 0 | 57 | 0 h |
+| `░░░░░░░░░░░░░░░░░░░░` **0 %** | 0 / 57 | 1 | 56 | 0 h |
 
 ## Por unidad
 
@@ -28,7 +28,7 @@
 
 | Tarea | Ejercicio | Estado | Pasos | Horas |
 |---|---|:-:|:-:|:-:|
-| **T2.1.1** | [Ej. 1 · Qué es PHP · PHP vs JS · carpeta XAMPP](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej1-respuestas.md) | ⬜ | 0/3 | 0 |
+| **T2.1.1** | [Ej. 1 · Qué es PHP · PHP vs JS · carpeta XAMPP](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej1-respuestas.md) | 🟡* | 0/3 | 0 |
 |  | [Ej. 2 · phpinfo()](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej2-phpinfo.php) | ⬜ | 0/3 | 0 |
 |  | [Ej. 3 · Cuestiones de sintaxis](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej3-respuestas.md) | ⬜ | 0/6 | 0 |
 |  | [Ej. 4 · Nombre y apellido](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej4-nombre-apellido.php) | ⬜ | 0/2 | 0 |

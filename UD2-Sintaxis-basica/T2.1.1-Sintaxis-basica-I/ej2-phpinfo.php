@@ -5,8 +5,8 @@
  *  T2.1.1 · Ejercicio 2 — phpinfo()
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
- *  @estado  pendiente      ← pendiente | en-progreso | completado
- *  @horas   0              ← horas dedicadas (admite 1.5)
+ *  @estado  completado      ← pendiente | en-progreso | completado
+ *  @horas   0.5              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
  *    Ejecutar phpinfo() y saber localizar datos clave de la

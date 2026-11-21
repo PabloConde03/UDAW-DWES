@@ -1,4 +1,4 @@
-<!-- @estado: pendiente | @horas: 0 -->
+<!-- @estado: completado | @horas: 0.5 -->
 <!-- Estados: pendiente | en-progreso | completado. Marca cada casilla [x] al responder. -->
 
 # T2.1.1 · Ejercicio 1 — Qué es PHP · PHP vs JS · carpeta XAMPP

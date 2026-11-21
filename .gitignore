@@ -1,0 +1,23 @@
+# IDEs
+.idea/
+.vscode/
+nbproject/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ficheros subidos durante las pruebas de formularios
+**/subidos/*
+**/files/*
+**/PDF/*
+**/IMG/*
+!**/subidos/.gitkeep
+!**/files/.gitkeep
+!**/PDF/.gitkeep
+!**/IMG/.gitkeep
+
+# Entregables generados
+*.zip
+*.mp4

@@ -6,13 +6,13 @@
 
 | Global | Completados | En progreso | Pendientes | Horas |
 |---|:-:|:-:|:-:|:-:|
-| `█░░░░░░░░░░░░░░░░░░░` **5 %** | 3 / 57 | 0 | 54 | 1 h |
+| `██░░░░░░░░░░░░░░░░░░` **11 %** | 6 / 57 | 0 | 51 | 2 h |
 
 ## Por unidad
 
 | Unidad | Avance | % | Horas |
 |---|---|:-:|:-:|
-| **UD2** · Sintaxis básica | `███░░░░░░░░░░░░` | 20 % | 1 |
+| **UD2** · Sintaxis básica | `██████░░░░░░░░░` | 40 % | 2 |
 | **UD3** · Control, arrays, cadenas y funciones | `░░░░░░░░░░░░░░░` | 0 % | 0 |
 | **UD4** · Formularios, cookies y sesiones | `░░░░░░░░░░░░░░░` | 0 % | 0 |
 
@@ -31,9 +31,9 @@
 | **T2.1.1** | [Ej. 1 · Qué es PHP · PHP vs JS · carpeta XAMPP](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej1-respuestas.md) | ✅ | 3/3 | 0,5 |
 |  | [Ej. 2 · phpinfo()](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej2-phpinfo.php) | ✅ | 3/3 | 0,5 |
 |  | [Ej. 3 · Cuestiones de sintaxis](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej3-respuestas.md) | ✅ | 6/6 | 0 |
-|  | [Ej. 4 · Nombre y apellido](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej4-nombre-apellido.php) | ⬜ | 0/2 | 0 |
-|  | [Ej. 5 · Identificadores válidos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej5-identificadores.php) | ⬜ | 0/3 | 0 |
-|  | [Ej. 6 · Operadores aritméticos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej6-aritmetica.php) | ⬜ | 0/3 | 0 |
+|  | [Ej. 4 · Nombre y apellido](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej4-nombre-apellido.php) | ✅ | 2/2 | 0,5 |
+|  | [Ej. 5 · Identificadores válidos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej5-identificadores.php) | ✅ | 3/3 | 0 |
+|  | [Ej. 6 · Operadores aritméticos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej6-aritmetica.php) | ✅ | 3/3 | 0,5 |
 |  | [Ej. 7 · Operadores de asignación](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej7-asignacion.php) | ⬜ | 0/2 | 0 |
 |  | [Ej. 8 · Expresiones lógicas](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej8-logica.php) | ⬜ | 0/3 | 0 |
 | **T2.1.2** | [Ej. 1 · Secuencias de escape](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej1-escapes.php) | ⬜ | 0/2 | 0 |

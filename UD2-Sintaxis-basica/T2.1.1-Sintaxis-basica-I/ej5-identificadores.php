@@ -1,10 +1,11 @@
 <?php
+
 /**
  * ========================================================================
  *  T2.1.1 · Ejercicio 5 — Identificadores válidos
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
- *  @estado  pendiente      ← pendiente | en-progreso | completado
+ *  @estado  completado      ← pendiente | en-progreso | completado
  *  @horas   0              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
@@ -24,16 +25,18 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>T2.1.1 · Ej. 5 — Identificadores válidos</title>
 </head>
+
 <body>
-<h1>T2.1.1 · Ej. 5 — Identificadores válidos</h1>
+    <h1>T2.1.1 · Ej. 5 — Identificadores válidos</h1>
 
-<?php
+    <?php
 
-/*
+    /*
  * ── MI PREDICCIÓN (escríbela ANTES de ejecutar) ──────────────────────
  *
  *
@@ -42,22 +45,32 @@
  *
  */
 
-// ── Código del enunciado ──
+    // ── Código del enunciado ──
 
-// Descomenta de una en una:
-// $rayos-x = 0;
-// $2SiONo2Tan = 0;
-// $ElCorderito's = 0;
-// $Tanto Monta = 0;
+    // Descomenta de una en una:
+    // $rayos-x = 0;
+    // $2SiONo2Tan = 0;
+    // $ElCorderito's = 0;
+    // $Tanto Monta = 0;
 
-// TODO 1: Escribe tu predicción (válido / no válido + motivo) ANTES de
-//         probar.
+    // TODO 1: Escribe tu predicción (válido / no válido + motivo) ANTES de
+    //         probar.
 
-// TODO 2: Prueba cada línea por separado (un error de sintaxis detiene
-//         todo el script).
+    // TODO 2: Prueba cada línea por separado (un error de sintaxis detiene
+    //         todo el script).
+    // No los escribo directamente porque no funcionan pero los escribo corregidos
 
-// TODO 3: Escribe la regla general de nombres de variable en PHP.
+    $rayosX = 0;
+    $SiONo2Tan = 0;
+    $ElCorderito = 0;
+    $TantoMonta = 0;
 
-?>
+
+
+    // TODO 3: Escribe la regla general de nombres de variable en PHP.
+    //No pueden llevar guion ni guion bajo, no pueden empezar con numero, llevar a apóstrofe o contener espacios por eso se usa CamellCase en las variables.
+
+    ?>
 </body>
+
 </html>

@@ -30,7 +30,7 @@ Mis ejercicios, tareas evaluables y proyectos de PHP del ciclo superior de<br/>
 > Estás en la rama **`Pablo`**, la de trabajo: aquí están los enunciados, mis plantillas de cada ejercicio y el dashboard con el que llevo la cuenta de lo que me queda.
 
 <!-- PROGRESO:INICIO -->
-**Progreso:** `█░░░░░░░░░░░░░░░░░░░` **5 %** · 3/57 ejercicios · 1 h · [ver detalle](PROGRESO.md)
+**Progreso:** `██░░░░░░░░░░░░░░░░░░` **11 %** · 6/57 ejercicios · 2 h · [ver detalle](PROGRESO.md)
 <!-- PROGRESO:FIN -->
 
 ## 🧭 Cómo trabajo en esta rama

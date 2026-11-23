@@ -21,3 +21,22 @@
 - [X] **3. Carpeta de proyectos web de XAMPP**
 
   _La carpeta de proyectos web de XAMPP es htdocs…_
+
+---
+
+## Revisión · qué falla y trucos de examen
+
+- ✔ **1. ¿Qué es PHP?** Correcta, pero le falta la idea clave: **se ejecuta en el servidor y lo que llega al navegador es el HTML que genera**.
+- ✖ **2. PHP vs JS:** has reformulado la pregunta sin dar ninguna diferencia. En el examen esto sería un 0. Hay que nombrarlas:
+
+  | | PHP | JavaScript |
+  |---|---|---|
+  | Dónde se ejecuta | Servidor (Apache + intérprete PHP) | Navegador del cliente (también en servidor con Node) |
+  | ¿Se ve el código? | No, solo llega el HTML resultante | Sí (Ctrl+U o F12) |
+  | Acceso a BD y ficheros del servidor | Sí | No, desde el navegador |
+  | Interacción sin recargar | No, cada acción es una petición nueva | Sí (DOM, eventos, fetch) |
+  | Variables | Con `$`, sin declarar | `let` / `const` |
+
+- ✔ **3. Carpeta:** `htdocs`. Pon la ruta completa: `C:\xampp\htdocs`, y la URL a la que corresponde: `http://localhost/`.
+
+> **Truco de examen:** en las preguntas teóricas, responde con **2 o 3 hechos concretos**, no con una definición general. «Se diferencian en dónde se ejecutan» no puntúa; «PHP en el servidor y JS en el navegador» sí.

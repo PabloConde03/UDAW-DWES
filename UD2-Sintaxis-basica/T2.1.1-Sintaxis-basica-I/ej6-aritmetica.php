@@ -125,6 +125,31 @@ decimales). Para el resto de dos floats se usa fmod(13.9, 3).
  */
 
     ?>
+    <style>
+        .revision { font-family: Arial, sans-serif; max-width: 900px; margin-top: 30px; border-top: 3px solid #2563eb; padding-top: 10px; }
+        .revision code { background: #f1f5f9; padding: 1px 5px; border-radius: 4px; }
+        .revision pre { background: #0f172a; color: #e2e8f0; padding: 12px 14px; border-radius: 8px; line-height: 1.5; }
+        .revision .ok { color: #166534; font-weight: bold; }
+        .revision .ko { color: #991b1b; font-weight: bold; }
+        .revision .regla { background: #eff6ff; border-left: 4px solid #2563eb; padding: 10px 14px; margin: 15px 0; }
+        .revision .aviso { background: #fef3c7; border-left: 4px solid #d97706; padding: 10px 14px; margin: 15px 0; }
+    </style>
+    <section class="revision">
+        <h2>Revisión · qué falla y trucos de examen</h2>
+        <p class="ok">✔ Predicción final correcta en valores y tipos, y bien comprobada con var_dump().</p>
+        <p class="ko">✖ Solo orden: el texto de «RESULTADO REAL Y POR QUÉ» está pegado dos veces (arriba y en el TODO 3).
+            Deja uno, en el bloque de arriba.</p>
+        <p>Recuerda que el primer intento tenía <code>c = 1.2</code>, <code>PHP.EOL</code> en lugar de <code>PHP_EOL</code> y
+            cadenas sin <code>echo</code>. Esos tres son los errores típicos de examen.</p>
+        <div class="regla"><b>Trucos de examen:</b>
+            <ul>
+                <li><code>/</code> puede devolver int <b>o</b> float. <code>%</code> siempre devuelve int.</li>
+                <li>División entera: <code>intdiv(7, 2)</code> da <code>3</code>.</li>
+                <li><code>var_dump()</code> imprime directamente y no se puede concatenar en un <code>echo</code>.
+                    <code>print_r($x, true)</code> sí devuelve la cadena.</li>
+                <li>Una cadena suelta sin <code>echo</code> (<code>"texto" . $a;</code>) es válida y no imprime nada.</li>
+            </ul></div>
+    </section>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
  *  T2.1.2 · Ejercicio 3 — Etiqueta <pre>
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
- *  @estado  en-progreso      ← pendiente | en-progreso | completado
+ *  @estado  completado      ← pendiente | en-progreso | completado
  *  @horas   0              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO

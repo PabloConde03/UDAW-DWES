@@ -6,7 +6,7 @@
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
  *  @estado  completado      ← pendiente | en-progreso | completado
- *  @horas   0.5              ← horas dedicadas (admite 1.5)
+ *  @horas   1              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
  *    Entender cuándo se interpretan \n y \r y por qué no se ven en el

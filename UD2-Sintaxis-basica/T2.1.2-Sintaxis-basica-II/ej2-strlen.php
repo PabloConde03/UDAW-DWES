@@ -1,10 +1,11 @@
 <?php
+
 /**
  * ========================================================================
  *  T2.1.2 · Ejercicio 2 — Tabuladores y strlen
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
- *  @estado  pendiente      ← pendiente | en-progreso | completado
+ *  @estado  completado      ← pendiente | en-progreso | completado
  *  @horas   0              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
@@ -23,16 +24,18 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>T2.1.2 · Ej. 2 — Tabuladores y strlen</title>
 </head>
+
 <body>
-<h1>T2.1.2 · Ej. 2 — Tabuladores y strlen</h1>
+    <h1>T2.1.2 · Ej. 2 — Tabuladores y strlen</h1>
 
-<?php
+    <?php
 
-/*
+    /*
  * ── MI PREDICCIÓN (escríbela ANTES de ejecutar) ──────────────────────
  *
  *
@@ -41,16 +44,23 @@
  *
  */
 
-// ── Código del enunciado ──
+    // ── Código del enunciado ──
 
-$cadena = "1\t2\t3\t4\n5";
-echo $cadena;
-echo "<br/>";
+    $cadena = "1\t2\t3\t4\n5";
+    echo $cadena;
+    echo "<br/>";
 
-// TODO 1: Predicción de salida y de strlen($cadena).
+    // TODO 1: Predicción de salida y de strlen($cadena).
 
-// TODO 2: Comprueba con strlen().
+    echo "<br> Al almacenar las propiedades en una cadena y luego imprimirlas con echo si que se usan...<br>
+    La salida de strlen($cadena) deberia de ser 9. <br>
+     strlen($cadena) =  ";
 
-?>
+    // TODO 2: Comprueba con strlen().
+
+    echo strlen($cadena);
+
+    ?>
 </body>
+
 </html>

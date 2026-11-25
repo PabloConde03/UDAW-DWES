@@ -1,11 +1,12 @@
 <?php
+
 /**
  * ========================================================================
  *  T2.1.2 · Ejercicio 1 — Secuencias de escape
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
- *  @estado  pendiente      ← pendiente | en-progreso | completado
- *  @horas   0              ← horas dedicadas (admite 1.5)
+ *  @estado  completado      ← pendiente | en-progreso | completado
+ *  @horas   0.5              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
  *    Entender cuándo se interpretan \n y \r y por qué no se ven en el
@@ -26,38 +27,48 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>T2.1.2 · Ej. 1 — Secuencias de escape</title>
 </head>
+
 <body>
-<h1>T2.1.2 · Ej. 1 — Secuencias de escape</h1>
+    <h1>T2.1.2 · Ej. 1 — Secuencias de escape</h1>
 
-<?php
+    <?php
 
-/*
+    /*
  * ── MI PREDICCIÓN (escríbela ANTES de ejecutar) ──────────────────────
- *
+ * No iremos(marcado) solos
+ * No iremos(marcado) solos
+ * No iremos(marcado) solos
+ * No iremos(marcado) solos
  *
  * ── RESULTADO REAL Y POR QUÉ ──────────────────────────────────────────
- *
+ * Las etiquetas se aplican con print sin embargo echo escribe la etiqueta tal cual
  *
  */
 
-// ── Código del enunciado ──
+    // ── Código del enunciado ──
 
-print("No\n\r iremos \n\rsolos");
-echo "<br/>";
-print('No\n\r iremos \nsolos');
-echo "<br/>";
-echo "No\n\r iremos \n\rsolos";
-echo "<br/>";
-echo 'No\n iremos \nsolos';
+    print("No\n\r iremos \n\rsolos");
+    echo "<br/>";
+    print('No\n\r iremos \nsolos');
+    echo "<br/>";
+    echo "No\n\r iremos \n\rsolos";
+    echo "<br/>";
+    echo 'No\n iremos \nsolos';
 
-// TODO 1: Predicción de lo que se ve en el navegador.
+    // TODO 1: Predicción de lo que se ve en el navegador.
+    echo "<br>";
+    echo "Las propiedades como /n o /r se aplican con print echo tal solo las imprime en pantalla <br>";
 
-// TODO 2: Ejecuta y mira también el código fuente (Ctrl+U).
+    // TODO 2: Ejecuta y mira también el código fuente (Ctrl+U).
 
-?>
+    echo "En la consola pasa exactamente lo mismo...";
+    ?>
+
 </body>
+
 </html>

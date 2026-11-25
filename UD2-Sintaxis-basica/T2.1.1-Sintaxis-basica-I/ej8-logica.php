@@ -6,7 +6,7 @@
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
  *  @estado  completado      ← pendiente | en-progreso | completado
- *  @horas   0.5              ← horas dedicadas (admite 1.5)
+ *  @horas   0              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
  *    Evaluar 6 expresiones booleanas aplicando la precedencia.

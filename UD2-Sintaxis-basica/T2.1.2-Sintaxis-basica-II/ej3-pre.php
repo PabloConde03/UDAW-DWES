@@ -1,10 +1,11 @@
 <?php
+
 /**
  * ========================================================================
  *  T2.1.2 · Ejercicio 3 — Etiqueta <pre>
  *  Enunciado: README.md de esta carpeta
  * ------------------------------------------------------------------------
- *  @estado  pendiente      ← pendiente | en-progreso | completado
+ *  @estado  en-progreso      ← pendiente | en-progreso | completado
  *  @horas   0              ← horas dedicadas (admite 1.5)
  * ------------------------------------------------------------------------
  *  OBJETIVO
@@ -24,9 +25,11 @@
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>T2.1.2 · Ej. 3 — Etiqueta <pre></title>
+    <title>T2.1.2 · Ej. 3 — Etiqueta
+        <pre></title>
 </head>
 <body>
 <h1>T2.1.2 · Ej. 3 — Etiqueta <pre></h1>
@@ -35,10 +38,10 @@
 
 /*
  * ── MI PREDICCIÓN (escríbela ANTES de ejecutar) ──────────────────────
- *
+ * Deberia de imprimir una cadena vacía
  *
  * ── RESULTADO REAL Y POR QUÉ ──────────────────────────────────────────
- *
+ * Salta un error porque la variable esta vacia
  *
  */
 
@@ -55,6 +58,13 @@ echo "</pre>";
 //         variable indefinida).
 
 // TODO 2: Predicción y comprobación.
+$cadena = "1\t2\t3\t4\n5";
+echo "<pre>";
+echo "<br/>";
+echo 'No\n iremos \nsolos';
+echo "<br/>";
+echo $cadena;
+echo "</pre>";
 
 ?>
 </body>

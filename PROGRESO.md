@@ -6,13 +6,13 @@
 
 | Global | Completados | En progreso | Pendientes | Horas |
 |---|:-:|:-:|:-:|:-:|
-| `███░░░░░░░░░░░░░░░░░` **14 %** | 8 / 57 | 0 | 49 | 4 h |
+| `████░░░░░░░░░░░░░░░░` **18 %** | 10 / 57 | 1 | 46 | 2,5 h |
 
 ## Por unidad
 
 | Unidad | Avance | % | Horas |
 |---|---|:-:|:-:|
-| **UD2** · Sintaxis básica | `████████░░░░░░░` | 53 % | 4 |
+| **UD2** · Sintaxis básica | `██████████░░░░░` | 67 % | 2,5 |
 | **UD3** · Control, arrays, cadenas y funciones | `░░░░░░░░░░░░░░░` | 0 % | 0 |
 | **UD4** · Formularios, cookies y sesiones | `░░░░░░░░░░░░░░░` | 0 % | 0 |
 
@@ -29,16 +29,16 @@
 | Tarea | Ejercicio | Estado | Pasos | Horas |
 |---|---|:-:|:-:|:-:|
 | **T2.1.1** | [Ej. 1 · Qué es PHP · PHP vs JS · carpeta XAMPP](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej1-respuestas.md) | ✅ | 3/3 | 0,5 |
-|  | [Ej. 2 · phpinfo()](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej2-phpinfo.php) | ✅ | 3/3 | 0,5 |
+|  | [Ej. 2 · phpinfo()](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej2-phpinfo.php) | ✅ | 3/3 | 0 |
 |  | [Ej. 3 · Cuestiones de sintaxis](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej3-respuestas.md) | ✅ | 6/6 | 0,5 |
-|  | [Ej. 4 · Nombre y apellido](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej4-nombre-apellido.php) | ✅ | 2/2 | 0,5 |
+|  | [Ej. 4 · Nombre y apellido](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej4-nombre-apellido.php) | ✅ | 2/2 | 0 |
 |  | [Ej. 5 · Identificadores válidos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej5-identificadores.php) | ✅ | 3/3 | 0,5 |
-|  | [Ej. 6 · Operadores aritméticos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej6-aritmetica.php) | ✅ | 3/3 | 0,5 |
+|  | [Ej. 6 · Operadores aritméticos](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej6-aritmetica.php) | ✅ | 3/3 | 0 |
 |  | [Ej. 7 · Operadores de asignación](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej7-asignacion.php) | ✅ | 2/2 | 0,5 |
-|  | [Ej. 8 · Expresiones lógicas](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej8-logica.php) | ✅ | 3/3 | 0,5 |
-| **T2.1.2** | [Ej. 1 · Secuencias de escape](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej1-escapes.php) | ⬜ | 0/2 | 0 |
-|  | [Ej. 2 · Tabuladores y strlen](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej2-strlen.php) | ⬜ | 0/2 | 0 |
-|  | [Ej. 3 · Etiqueta <pre>](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej3-pre.php) | ⬜ | 0/2 | 0 |
+|  | [Ej. 8 · Expresiones lógicas](UD2-Sintaxis-basica/T2.1.1-Sintaxis-basica-I/ej8-logica.php) | ✅ | 3/3 | 0 |
+| **T2.1.2** | [Ej. 1 · Secuencias de escape](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej1-escapes.php) | ✅ | 2/2 | 0,5 |
+|  | [Ej. 2 · Tabuladores y strlen](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej2-strlen.php) | ✅ | 2/2 | 0 |
+|  | [Ej. 3 · Etiqueta <pre>](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej3-pre.php) | 🟡 | 0/2 | 0 |
 |  | [Ej. 4 · gettype y operadores lógicos](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej4-gettype.php) | ⬜ | 0/3 | 0 |
 |  | [Ej. 5 · Tipado dinámico en operaciones](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej5-tipado.php) | ⬜ | 0/3 | 0 |
 |  | [Ej. 6 · Casting](UD2-Sintaxis-basica/T2.1.2-Sintaxis-basica-II/ej6-casting.php) | ⬜ | 0/2 | 0 |
